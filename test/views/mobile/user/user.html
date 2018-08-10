@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script src="../../../resources/assets/plugins/jquery.js"></script>
+	    <script src="../../../resources/assets/plugins/mobile/js/mui.min.js"></script>
+	    <script type="text/javascript" src="../../../resources/assets/mobile/front/js/index.js"></script>
+	    <link href="../../../resources/assets/plugins/mobile/css/mui.min.css" rel="stylesheet"/>
+	    <link href="../../../resources/assets/plugins/mobile/css/iconfont.css" rel="stylesheet"/>
+	    <link href="../../../resources/assets/mobile/common/css/common.css" rel="stylesheet"/>
+	    <link href="../../../resources/assets/mobile/front/css/index.css" rel="stylesheet"/>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</head>
+	<body>
+		<!--头部开始-->
+		<div class="user_top">
+			<h5 style="background: #4182F8; margin-top: 0px; line-height: 10px; ">
+				<a href="../index.html" class="mui-icon mui-icon-back back" style="margin-top: 10px; margin-left: 10px;"></a>
+			</h5>
+			<div class="user_top_img">
+				<a class="pic" href="login.html">
+					<img src="../../../resources/imgs/mobile/user/people.jpg" alt="" title="">
+				</a>
+				<p>小王同志</p>
+				<div class="work">
+					<p>前端</p>
+				</div>
+			</div>
+		</div>
+		<!--//头部结束-->
+		<nav class="mui-bar mui-bar-tab">
+			    <a class="mui-tab-item" href="../index.html">
+			        <span class="mui-icon mui-icon-home"></span>
+			        <span class="mui-tab-label">首页</span>
+			    </a>
+			    <a class="mui-tab-item" href="../course.html">
+			        <span class="mui-icon iconfont">&#xe633;</span>
+			        <span class="mui-tab-label">课程</span>
+			    </a>
+			    <a class="mui-tab-item" href="../find.html">
+			        <span class="mui-icon mui-icon-search"></span>
+			        <span class="mui-tab-label">发现</span>
+			    </a>
+			    <a class="mui-tab-item mui-active" href="#this">
+			        <span class="mui-icon mui-icon-person"></span>
+			        <span class="mui-tab-label">我的</span>
+			    </a>
+		</nav>
+		<script>
+			mui('body').on('tap','a',function(){
+				document.location.href=this.href;
+				/*$(".mui-tab-item").removeClass("mui-active");
+				$(this).addClass("mui-active");*/
+			});
+		</script>
+		<!--内容开始-->
+		<div class="user_content">
+			<ul>
+				<li class="news">
+					<a href="user_news.html">
+						<p class="add-border">消息中心
+							<i class="mui-icon mui-icon-forward"></i>
+						</p>
+					</a>
+				</li>
+				<li class="classes">
+					<a href="user_class.html">
+						<p>我的课程
+							<i class="mui-icon mui-icon-forward"></i>
+						</p>
+					</a>
+				</li>
+				<li class="collection">
+					<a href="user_class.html">
+						<p>收藏
+							<i class="mui-icon mui-icon-forward"></i>
+						</p>
+					</a>
+				</li>
+				<li class="history no_border">
+					<a href="user_history.html">
+						<p>历史纪录
+							<i class="mui-icon mui-icon-forward"></i>
+						</p>
+					</a>
+				</li>
+			</ul>
+			<ul>
+				<li class="about">
+					<a href="user_about.html#about">
+						<p>关于我们
+							<i class="mui-icon mui-icon-forward"></i>
+						</p>
+					</a>
+				</li>
+				<li class="res">
+					<a href="#">	
+						<p>设置
+							<i class="mui-icon mui-icon-forward"></i>
+						</p>
+					</a>
+				</li>
+				<li class="lianxi no_border">
+					<a href="user_about.html#contect">
+						<p>联系我们
+							<i class="mui-icon mui-icon-forward"></i>	
+						</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--//内容结束-->
+		<div style="height: 60px; clear: both;">
+			
+		</div>
+	</body>
+</html>

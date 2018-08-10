@@ -1,0 +1,274 @@
+{
+	"views/mobile/index.html": {
+		"resources": [
+			"resources/assets/plugins/mobile/css/mui.min.css",
+			"resources/imgs/mobile/index_banner1.jpg",
+			"resources/assets/mobile/common/css/common.css",
+			"resources/imgs/mobile/index_banner3.jpg",
+			"resources/assets/mobile/front/css/index.css",
+			"resources/imgs/mobile/index_banner2.jpg",
+			"resources/assets/plugins/mobile/fonts/mui.ttf",
+			"resources/assets/plugins/mobile/js/mui.min.js",
+			"resources/imgs/mobile/index_icon4.png",
+			"resources/imgs/mobile/index_icon2.png",
+			"resources/imgs/mobile/index_icon1.png",
+			"resources/imgs/mobile/index_icon5.png",
+			"resources/imgs/mobile/index_icon3.png",
+			"resources/imgs/mobile/index_cont1_tit.png",
+			"resources/imgs/mobile/index_cont4_banner_dtbg1.jpg",
+			"resources/imgs/mobile/index_cont2_dt2.jpg",
+			"resources/imgs/mobile/index_cont4_banner_dtbg3.jpg",
+			"resources/imgs/mobile/index_cont2_dt1.jpg",
+			"resources/imgs/mobile/index_cont3_dt2.jpg",
+			"resources/imgs/mobile/index_cont1_banner_dtbg1.jpg",
+			"resources/imgs/mobile/index_cont1_banner_dtbg2.jpg",
+			"resources/imgs/mobile/index_cont1_banner_dtbg3.jpg",
+			"resources/imgs/mobile/index_cont4_banner_dtbg2.jpg",
+			"resources/imgs/mobile/index_cont3_dt1.jpg",
+			"resources/imgs/mobile/index_cont3_dt3.jpg",
+			"resources/assets/mobile/front/js/index.js",
+			"resources/imgs/mobile/index_cont2_dt3.jpg",
+			"resources/imgs/mobile/index_cont3_tit.png",
+			"resources/imgs/mobile/index_cont5_dt2.jpg",
+			"resources/imgs/mobile/index_cont5_dt3.jpg",
+			"resources/imgs/mobile/index_cont5_dt1.jpg",
+			"resources/imgs/mobile/index_cont6_tit.png",
+			"views/mobile/index_search.html",
+			"resources/assets/plugins/mobile/css/iconfont.css",
+			"resources/assets/plugins/mobile/css/iconfont.woff",
+			"resources/imgs/mobile/index_cont3_dt4.jpg",
+			"resources/imgs/mobile/index_ban1.jpg",
+			"resources/imgs/mobile/index_ban3.jpg",
+			"resources/assets/plugins/jquery.js",
+			"resources/imgs/mobile/index_ban2.jpg",
+			"views/mobile/guid.html",
+			"views/mobile/course.html",
+			"views/mobile/find.html",
+			"views/mobile/user/user.html",
+			"views/mobile/teacher.html"
+		],
+		"refer": [
+			"views/mobile/index_search.html",
+			"views/mobile/guid.html",
+			"views/mobile/course.html",
+			"views/mobile/find.html",
+			"views/mobile/user/user.html",
+			"views/mobile/teacher.html"
+		]
+	},
+	"views/mobile/index_search.html": {
+		"resources": [
+			"resources/assets/plugins/mobile/css/mui.min.css",
+			"resources/assets/mobile/common/css/common.css",
+			"resources/assets/plugins/mobile/js/mui.min.js",
+			"resources/imgs/mobile/index_search_cha.png",
+			"resources/assets/mobile/front/css/index_search.css",
+			"views/mobile/index.html",
+			"resources/assets/mobile/front/css/index.css"
+		],
+		"refer": [
+			"views/mobile/index.html"
+		]
+	},
+	"views/mobile/guid.html": {
+		"resources": [
+			"resources/assets/plugins/mobile/css/mui.min.css",
+			"resources/imgs/mobile/guid_adv1.jpg",
+			"resources/imgs/mobile/guid_adv3.jpg",
+			"resources/assets/mobile/front/css/guid.css",
+			"resources/imgs/mobile/guid_adv2.jpg",
+			"resources/assets/plugins/mobile/js/mui.min.js",
+			"resources/assets/mobile/front/js/guid.js",
+			"resources/assets/plugins/mobile/js/mui.js",
+			"views/mobile/index.html",
+			"resources/assets/mobile/front/css/index.css"
+		],
+		"refer": [
+			"views/mobile/index.html"
+		]
+	},
+	"views/mobile/course.html": {
+		"resources": [
+			"resources/assets/mobile/front/js/index.js",
+			"resources/assets/plugins/mobile/css/iconfont.css",
+			"resources/assets/plugins/mobile/css/mui.min.css",
+			"resources/assets/mobile/common/css/common.css",
+			"resources/assets/mobile/front/css/index.css",
+			"resources/assets/plugins/mobile/js/mui.min.js",
+			"views/mobile/courseList.html",
+			"views/mobile/index.html",
+			"views/mobile/find.html",
+			"views/mobile/user/user.html"
+		],
+		"refer": [
+			"views/mobile/courseList.html",
+			"views/mobile/index.html",
+			"views/mobile/find.html",
+			"views/mobile/user/user.html"
+		]
+	},
+	"views/mobile/courseList.html": {
+		"resources": [
+			"resources/assets/mobile/front/js/index.js",
+			"resources/assets/plugins/mobile/css/iconfont.css",
+			"resources/assets/plugins/mobile/css/mui.min.css",
+			"resources/assets/mobile/common/css/common.css",
+			"resources/assets/mobile/front/css/index.css",
+			"resources/assets/plugins/jquery.js",
+			"views/mobile/course_details.html",
+			"resources/imgs/mobile/js1.jpg",
+			"resources/assets/plugins/mobile/js/mui.min.js",
+			"views/mobile/index_search.html",
+			"views/mobile/course.html",
+			"views/mobile/find.html"
+		],
+		"refer": [
+			"views/mobile/course_details.html",
+			"views/mobile/index_search.html",
+			"views/mobile/course.html",
+			"views/mobile/find.html"
+		]
+	},
+	"views/mobile/course_details.html": {
+		"resources": [
+			"resources/assets/mobile/front/js/index.js",
+			"resources/assets/plugins/mobile/css/iconfont.css",
+			"resources/assets/plugins/mobile/css/mui.min.css",
+			"resources/assets/front/js/main.js",
+			"resources/imgs/mobile/teacher1.jpg",
+			"resources/assets/mobile/common/css/common.css",
+			"resources/assets/mobile/front/css/index.css",
+			"resources/assets/plugins/jquery.js",
+			"resources/imgs/mobile/course_banner.jpg",
+			"resources/assets/plugins/mobile/js/mui.min.js",
+			"views/mobile/courseList.html"
+		],
+		"refer": [
+			"views/mobile/courseList.html"
+		]
+	},
+	"views/mobile/find.html": {
+		"resources": [
+			"resources/assets/mobile/front/js/index.js",
+			"resources/assets/plugins/mobile/css/mui.min.css",
+			"resources/imgs/mobile/find/head.jpg",
+			"resources/assets/mobile/common/css/common.css",
+			"resources/assets/mobile/front/css/index.css",
+			"resources/imgs/mobile/find/pencil.png",
+			"resources/assets/plugins/jquery.min.js",
+			"resources/imgs/mobile/find/case-img.jpg",
+			"resources/assets/plugins/mobile/js/mui.min.js",
+			"views/mobile/index.html",
+			"views/mobile/course.html",
+			"views/mobile/index_search.html"
+		],
+		"refer": [
+			"views/mobile/index.html",
+			"views/mobile/course.html",
+			"views/mobile/index_search.html"
+		]
+	},
+	"views/mobile/user/user.html": {
+		"resources": [
+			"resources/imgs/mobile/user/lianxi.svg",
+			"resources/assets/plugins/mobile/css/mui.min.css",
+			"resources/assets/mobile/common/css/common.css",
+			"resources/assets/mobile/front/css/index.css",
+			"resources/imgs/mobile/user/collect.svg",
+			"resources/imgs/mobile/user/news.svg",
+			"resources/imgs/mobile/user/about.svg",
+			"resources/imgs/mobile/user/class.svg",
+			"resources/assets/plugins/mobile/js/mui.min.js",
+			"resources/assets/mobile/front/js/index.js",
+			"resources/assets/plugins/mobile/css/iconfont.css",
+			"resources/imgs/mobile/user/history.svg",
+			"resources/assets/plugins/jquery.js",
+			"resources/imgs/mobile/user/res.svg",
+			"resources/imgs/mobile/user/people.jpg",
+			"views/mobile/find.html",
+			"views/mobile/index.html",
+			"views/mobile/user/user_news.html",
+			"views/mobile/user/login.html",
+			"views/mobile/course.html",
+			"views/mobile/user/user_class.html",
+			"views/mobile/user/user_history.html"
+		],
+		"refer": [
+			"views/mobile/find.html",
+			"views/mobile/index.html",
+			"views/mobile/user/user_news.html",
+			"views/mobile/user/login.html",
+			"views/mobile/course.html",
+			"views/mobile/user/user_class.html",
+			"views/mobile/user/user_history.html"
+		]
+	},
+	"views/mobile/user/user_news.html": {
+		"resources": [
+			"resources/assets/mobile/front/js/index.js",
+			"resources/assets/plugins/mobile/css/mui.min.css",
+			"resources/imgs/mobile/user/user_news1.jpg",
+			"resources/assets/mobile/front/css/index.css",
+			"resources/assets/plugins/jquery.js",
+			"resources/assets/plugins/mobile/js/mui.min.js",
+			"views/mobile/user/user.html"
+		],
+		"refer": [
+			"views/mobile/user/user.html"
+		]
+	},
+	"views/mobile/user/login.html": {
+		"resources": [
+			"resources/imgs/mobile/user/login_weixin.svg",
+			"resources/assets/mobile/front/js/index.js",
+			"resources/assets/plugins/mobile/css/iconfont.css",
+			"resources/assets/plugins/mobile/css/mui.min.css",
+			"resources/assets/mobile/common/css/common.css",
+			"resources/imgs/mobile/user/login_weibo.svg",
+			"resources/assets/mobile/front/css/index.css",
+			"resources/assets/plugins/jquery.js",
+			"resources/imgs/mobile/user/password.svg",
+			"resources/imgs/mobile/user/login_qq.svg",
+			"resources/assets/plugins/mobile/js/mui.min.js",
+			"resources/imgs/mobile/user/name.svg",
+			"views/mobile/user/register.html"
+		],
+		"refer": [
+			"views/mobile/user/register.html"
+		]
+	},
+	"views/mobile/teacher.html": {
+		"resources": [
+			"resources/imgs/mobile/user/class_pic1.jpg",
+			"resources/imgs/teacher/teacherIntroduceLinuxTea.jpg",
+			"views/mobile/index.html",
+			"resources/imgs/mobile/user/people.jpg",
+			"resources/assets/mobile/front/js/index.js",
+			"resources/assets/plugins/mobile/css/mui.min.css",
+			"resources/assets/mobile/front/css/index.css",
+			"resources/assets/plugins/jquery.js",
+			"resources/assets/plugins/mobile/js/mui.min.js"
+		],
+		"refer": [
+			"views/mobile/index.html"
+		]
+	},
+	"views/mobile/user/user_class.html": {
+		"resources": [
+			"resources/imgs/mobile/user/favorite_pic1.jpg",
+			"views/mobile/user/user.html",
+			"resources/imgs/mobile/user/class_pic1.jpg"
+		],
+		"refer": [
+			"views/mobile/user/user.html"
+		]
+	},
+	"views/mobile/user/user_history.html": {
+		"resources": [
+			"views/mobile/user/user.html"
+		],
+		"refer": [
+			"views/mobile/user/user.html"
+		]
+	}
+}

@@ -1,0 +1,13 @@
+﻿*{ padding: 0; margin: 0;list-style-type: none;font-family: "微软雅黑";}
+*,dl{padding: 0; margin: 0; border: 0; font-size: 14px; font-family: "微软雅黑";}
+ul{list-style: none;}
+a{text-decoration: none!important;}
+body{width:100%; height: 100%; display: block; background: #fff;}
+/*首页导航样式*/
+.index_nav{ background-color: #34394b;}
+.index_nav h1{ color: white;}
+.index_nav a{ color: white;}
+.mui-bar{position: fixed !important;}
+.mui-bar-tab .mui-tab-item.mui-active { color: #2dade8;}
+
+

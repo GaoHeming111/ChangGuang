@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>首页</title>
+    <script src="../../resources/assets/plugins/mobile/js/mui.min.js"></script>
+    <script type="text/javascript" src="../../resources/assets/mobile/front/js/index.js"></script>
+    <link href="../../resources/assets/plugins/mobile/css/mui.min.css" rel="stylesheet"/>
+    <link href="../../resources/assets/mobile/common/css/common.css" rel="stylesheet"/>
+    <link href="../../resources/assets/mobile/front/css/index.css" rel="stylesheet"/>
+    <link href="../../resources/assets/plugins/mobile/css/iconfont.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav index_nav">
+	    <a class="mui-icon mui-icon-arrowleft" href="index.html"></a>
+	    <h1 class="mui-title">课程</h1>
+	    <a href="index_search.html" class="mui-icon mui-icon-search" id="index_search" style="float: right;"></a>
+	</header>
+	<nav class="mui-bar mui-bar-tab">
+		<a class="mui-tab-item" href="index.html">
+			        <span class="mui-icon mui-icon-home"></span>
+			        <span class="mui-tab-label">首页</span>
+			    </a>
+		<a class="mui-tab-item mui-active" href="course.html">
+			        <span class="mui-icon iconfont">&#xe633;</span>
+			        <span class="mui-tab-label">课程</span>
+			    </a>
+		<a class="mui-tab-item" href="find.html">
+			        <span class="mui-icon mui-icon-search"></span>
+			        <span class="mui-tab-label">发现</span>
+			    </a>
+		<a class="mui-tab-item" href="user/user.html">
+			        <span class="mui-icon mui-icon-person"></span>
+			        <span class="mui-tab-label">我的</span>
+			    </a>
+	</nav>
+	<script>
+		mui('body').on('tap','a',function(){
+			document.location.href=this.href;});
+	</script>
+	<div class="mui-content index_content">
+			<div class="content_course" style="margin-top: -10px;">
+		    		<h3>光学设计</h3>
+					<ul class="mui-table-view mui-grid-view mui-grid-9">
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						    <a href="courseList.html">
+						    	<span class="mui-icon iconfont course_bg1">&#xe614;</span>
+						        <div class="mui-media-body">像差理论</div>
+						    </a>
+						</li>
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						    <a href="#">
+						        <span class="mui-icon iconfont course_bg2">&#xe700;</span>
+						        <div class="mui-media-body">光学设计</div>
+						    </a>
+						</li>
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						    <a href="#">
+						        <span class="mui-icon iconfont course_bg3">&#xe600;</span>
+						        <div class="mui-media-body">光学设计实训</div>
+						    </a>
+						</li>
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						    <a href="#">
+						        <span class="mui-icon iconfont course_bg4">&#xe651;</span>
+						        <div class="mui-media-body">装调系统实训</div>
+						    </a>
+						</li>
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						    <a href="#">
+						        <span class="mui-icon iconfont course_bg5">&#xe608;</span>
+						        <div class="mui-media-body">光学检测方法及标准实训</div>
+						    </a>
+						</li>
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						    <a href="#">
+						        <span class="mui-icon iconfont course_bg6">&#xe65c;</span>
+						        <div class="mui-media-body">光电成像技术及器件应用</div>
+						    </a>
+						</li>
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						    <a href="#">
+						        <span class="mui-icon iconfont course_bg7">&#xe683;</span>
+						        <div class="mui-media-body">科室实习</div>
+						    </a>
+						</li>
+					</ul>
+		    		<div class="clearfix"></div>
+		    	</div>
+		    <div class="content_course">
+		    		<h3>C++</h3>
+					<ul class="mui-table-view mui-grid-view mui-grid-9">
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						    <a href="#">
+						        <span class="mui-icon iconfont course_bg8">&#xe602;</span>
+						        <div class="mui-media-body">C++基础</div>
+						    </a>
+						</li>
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						    <a href="#">
+						        <span class="mui-icon iconfont course_bg9">&#xe66c;</span>
+						        <div class="mui-media-body">C++高级</div>
+						    </a>
+						</li>
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						    <a href="#">
+						        <span class="mui-icon iconfont course_bg10">&#xe616;</span>
+						        <div class="mui-media-body">MFC</div>
+						    </a>
+						</li>
+					</ul>    		
+		    	</div>
+		    <div class="content_course">
+		    		<h3>嵌入式开发</h3>
+					<ul class="mui-table-view mui-grid-view mui-grid-9">
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						    <a href="#">
+						        <span class="mui-icon iconfont course_bg11">&#xe601;</span>
+						        <div class="mui-media-body">软件开发</div>
+						    </a>
+						</li>
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						    <a href="#">
+						        <span class="mui-icon iconfont course_bg12">&#xe607;</span>
+						        <div class="mui-media-body">操作系统</div>
+						    </a>
+						</li>
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						    <a href="#">
+						        <span class="mui-icon iconfont course_bg13">&#xe65a;</span>
+						        <div class="mui-media-body">综合设计实践</div>
+						    </a>
+						</li>
+					</ul>
+		    		
+		    		
+		    		
+		    	</div>
+			<div class="content_course">
+					<h3>机械设计</h3>
+					<ul class="mui-table-view mui-grid-view mui-grid-9">
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						    <a href="#">
+						        <span class="mui-icon iconfont course_bg14">&#xe603;</span>
+						        <div class="mui-media-body">机械原理与设计</div>
+						    </a>
+						</li>
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						    <a href="#">
+						        <span class="mui-icon iconfont course_bg15">&#xe606;</span>
+						        <div class="mui-media-body">UG制图软件使用</div>
+						    </a>
+						</li>
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						    <a href="#">
+						        <span class="mui-icon iconfont course_bg16">&#xe636;</span>
+						        <div class="mui-media-body">加工工艺</div>
+						    </a>
+						</li>
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						    <a href="#">
+						        <span class="mui-icon iconfont course_bg17">&#xe708;</span>
+						        <div class="mui-media-body">CAE/CAM软件使用</div>
+						    </a>
+						</li>
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						    <a href="#">
+						        <span class="mui-icon iconfont course_bg18">&#xe613;</span>
+						        <div class="mui-media-body">机械检测(零部件)</div>
+						    </a>
+						</li>
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						    <a href="#">
+						        <span class="mui-icon iconfont course_bg19">&#xe651;</span>
+						        <div class="mui-media-body">装调系统实训</div>
+						    </a>
+						</li>
+						<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+						    <a href="#">
+						        <span class="mui-icon iconfont course_bg20">&#xe659;</span>
+						        <div class="mui-media-body">科室实习</div>
+						    </a>
+						</li>
+					</ul>
+				</div>
+	</div>
+</body>
+</html>

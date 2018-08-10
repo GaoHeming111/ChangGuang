@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>首页</title>
+    <script src="../../resources/assets/plugins/mobile/js/mui.min.js"></script>
+    <script src="../../resources/assets/plugins/jquery.js"></script>
+    <script src="../../resources/assets/mobile/front/js/index.js" type="text/javascript"></script>
+    <link href="../../resources/assets/plugins/mobile/css/mui.min.css" rel="stylesheet"/>
+    <link href="../../resources/assets/mobile/common/css/common.css" rel="stylesheet"/>
+    <link href="../../resources/assets/mobile/front/css/index.css" rel="stylesheet"/>
+    <link href="../../resources/assets/plugins/mobile/css/iconfont.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav index_nav">
+	    <a class="mui-icon mui-icon-bars" href="course.html"></a>
+	    <h1 class="mui-title">长光工程师培训中心</h1>
+	    <a href="index_search.html" class="mui-icon mui-icon-search" id="index_search" style="float: right;"></a>
+	</header>
+	<nav class="mui-bar mui-bar-tab">
+			    <a class="mui-tab-item mui-active" href="index.html">
+			        <span class="mui-icon mui-icon-home"></span>
+			        <span class="mui-tab-label">首页</span>
+			    </a>
+			    <a class="mui-tab-item" href="course.html">
+			        <span class="mui-icon iconfont">&#xe633;</span>
+			        <span class="mui-tab-label">课程</span>
+			    </a>
+			    <a class="mui-tab-item" href="find.html">
+			        <span class="mui-icon mui-icon-search"></span>
+			        <span class="mui-tab-label">发现</span>
+			    </a>
+			    <a class="mui-tab-item" href="user/user.html">
+			        <span class="mui-icon mui-icon-person"></span>
+			        <span class="mui-tab-label">我的</span>
+			    </a>
+	</nav>
+	<script>
+		mui('body').on('tap','a',function(){
+			console.log(document.location.href);
+			document.location.href=this.href;});
+	</script>
+	<div class="mui-content index_content">
+			<!--图片轮播-->
+			<div class="mui-slider">
+	  			<div class="mui-slider-group mui-slider-loop index_banner">
+				    <!--支持循环，需要重复图片节点-->
+				    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="../../resources/imgs/mobile/index_banner3.jpg" /></a></div>
+				    <div class="mui-slider-item"><a href="#"><img src="../../resources/imgs/mobile/index_banner1.jpg" /></a></div>
+				    <div class="mui-slider-item"><a href="#"><img src="../../resources/imgs/mobile/index_banner2.jpg" /></a></div>
+				    <div class="mui-slider-item"><a href="#"><img src="../../resources/imgs/mobile/index_banner3.jpg" /></a></div>
+				    <!--支持循环，需要重复图片节点-->
+	    			<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="../../resources/imgs/mobile/index_banner1.jpg" /></a></div>
+	  			</div>
+	  			<div class="mui-slider-indicator">
+					<div class="mui-indicator mui-active"></div>
+					<div class="mui-indicator"></div>
+					<div class="mui-indicator"></div>
+				</div>
+  			</div>
+  			<ul class="index_advantage">
+  				<a href="user/user_about.html#brand">
+  					<li class="index_advantage_li1">
+	  					<dl>
+	  						<dt style="background: -webkit-linear-gradient(top,#ffc679,#ffb754);background: -moz-linear-gradient(top,#ffc679,#ffb754);background: -ms-linear-gradient(top,#ffc679,#ffb754);background: -o-linear-gradient(top,#ffc679,#ffb754); ">
+	  							<img src="../../resources/imgs/mobile/index_icon1.png">
+	  						</dt>
+	  						<dd>品牌</dd>
+	  					</dl>
+	  				</li>
+  				</a>
+  				<a href="teacher.html">
+  					<li>  					
+  						<dl>
+	  						<dt style="background: -webkit-linear-gradient(top,#4cefac,#32e098);background: -moz-linear-gradient(top,#4cefac,#32e098);background: -ms-linear-gradient(top,#4cefac,#32e098);background: -o-linear-gradient(top,#4cefac,#32e098); ">
+	  							<img src="../../resources/imgs/mobile/index_icon2.png">
+	  						</dt>
+	  						<dd>师资</dd>
+	  					</dl>	  					
+  					</li>
+  				</a>
+  				<li>
+  					<a href="practicalTraning.html">
+  						<dl>
+	  						<dt style="background: -webkit-linear-gradient(top,#a8b7f7,#95a3e0);background: -moz-linear-gradient(top,#a8b7f7,#95a3e0);background: -ms-linear-gradient(top,#a8b7f7,#95a3e0);background: -o-linear-gradient(top,#a8b7f7,#95a3e0); ">
+	  							<img src="../../resources/imgs/mobile/index_icon3.png">
+	  						</dt>
+	  						<dd>就业</dd>
+	  					</dl>
+  					</a>
+  				</li>
+  				<a href="equipment.html">
+  					<li>
+	  					<dl>
+	  						<dt style="background: -webkit-linear-gradient(top,#5fccff,#33beff);background: -moz-linear-gradient(top,#5fccff,#33beff);background: -ms-linear-gradient(top,#5fccff,#33beff);background: -o-linear-gradient(top,#5fccff,#33beff); ">
+	  							<img src="../../resources/imgs/mobile/index_icon4.png">
+	  						</dt>
+	  						<dd>设备</dd>
+	  					</dl>
+	  				</li>
+  				</a>
+  				<a href="training.html">
+  					<li  class="index_advantage_li5">
+	  					<dl>
+	  						<dt style="background: -webkit-linear-gradient(top,#ff7d93,#ff5874);background: -moz-linear-gradient(top,#ff7d93,#ff5874);background: -ms-linear-gradient(top,#ff7d93,#ff5874);background: -o-linear-gradient(top,#ff7d93,#ff5874); ">
+	  							<img src="../../resources/imgs/mobile/index_icon5.png">
+	  						</dt>
+	  						<dd>实训</dd>
+	  					</dl>
+	  				</li>
+  				</a>
+  				
+  			</ul>
+			<div class="index_cont1">
+				<h1 style="margin: 0 auto; width: 73px;">
+					<img src="../../resources/imgs/mobile/index_cont1_tit.png" style="width: 12px;float: left; margin-right:3px;" />
+					<p style="float: left; font-size: 12px; font-weight: normal;">课程推荐</p>
+				</h1>
+				<p class="index_cont1_change" id="index_cont1_change" onclick="index_cont1_change1()">换一换</p>
+				<ul class="index_cont1_banner" id="index_cont1_banner_dis1">
+					<li>
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont1_banner_dtbg1.jpg) no-repeat left top;">PHP</dt>
+							<dd>
+								<h2>快速入门THinkPHP 5.0基础课程篇目</h2>
+								<p>Think PHP已经发布多时。想了解Think PhP的新特性吗？点开继续了解</p>
+								<span>230人浏览</span>
+							</dd>
+						</dl>
+					</li>
+					<li style="margin-right: 0px;">
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont1_banner_dtbg1.jpg) no-repeat right bottom;">html5</dt>
+							<dd>
+								<h2>html5之元素与标签结构</h2>
+								<p>详细探讨HTML5元素和标签结构知识，并深入拓展了全局样式的学习</p>
+								<span>1000人浏览</span>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont1_banner_dtbg2.jpg) no-repeat left bottom;">动画播放</dt>
+							<dd>
+								<h2>Premiere魔术——图片变电影</h2>
+								<p>教你使用剪辑软件Premiere，将图片制作成一部动态小电影，乐趣满满</p>
+								<span>2130人浏览</span>
+							</dd>
+						</dl>
+					</li>
+					<li style="margin-right: 0px;">
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont1_banner_dtbg3.jpg) no-repeat left center;">JAVA</dt>
+							<dd>
+								<h2>使用StrustS+Hibernate开发学生信息管理功能</h2>
+								<p>StrustS+Hibernate整合开发案例，java web开发技能更全面更深入的了解</p>
+								<span>5245人浏览</span>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+				<ul class="index_cont1_banner index_cont1_banner_dis" id="index_cont1_banner_dis2">
+					<li>
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont1_banner_dtbg2.jpg) no-repeat left top;">PHP</dt>
+							<dd>
+								<h2>快速入门THinkPHP 5.0基础课程篇目</h2>
+								<p>Think PHP已经发布多时。想了解Think PhP的新特性吗？点开继续了解</p>
+								<span>230人浏览</span>
+							</dd>
+						</dl>
+					</li>
+					<li style="margin-right: 0px;">
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont1_banner_dtbg3.jpg) no-repeat right bottom;">html5</dt>
+							<dd>
+								<h2>html5之元素与标签结构</h2>
+								<p>详细探讨HTML5元素和标签结构知识，并深入拓展了全局样式的学习</p>
+								<span>1000人浏览</span>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont1_banner_dtbg1.jpg) no-repeat left bottom;">动画播放</dt>
+							<dd>
+								<h2>Premiere魔术——图片变电影</h2>
+								<p>教你使用剪辑软件Premiere，将图片制作成一部动态小电影，乐趣满满</p>
+								<span>2130人浏览</span>
+							</dd>
+						</dl>
+					</li>
+					<li style="margin-right: 0px;">
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont1_banner_dtbg1.jpg) no-repeat left center;">JAVA</dt>
+							<dd>
+								<h2>使用StrustS+Hibernate开发学生信息管理功能</h2>
+								<p>StrustS+Hibernate整合开发案例，java web开发技能更全面更深入的了解</p>
+								<span>5245人浏览</span>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+				<ul class="index_cont1_banner index_cont1_banner_dis" id="index_cont1_banner_dis3">
+					<li>
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont1_banner_dtbg1.jpg) no-repeat right bottom;">PHP</dt>
+							<dd>
+								<h2>快速入门THinkPHP 5.0基础课程篇目</h2>
+								<p>Think PHP已经发布多时。想了解Think PhP的新特性吗？点开继续了解</p>
+								<span>230人浏览</span>
+							</dd>
+						</dl>
+					</li>
+					<li style="margin-right: 0px;">
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont1_banner_dtbg3.jpg) no-repeat left bottom;">html5</dt>
+							<dd>
+								<h2>html5之元素与标签结构</h2>
+								<p>详细探讨HTML5元素和标签结构知识，并深入拓展了全局样式的学习</p>
+								<span>1000人浏览</span>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont1_banner_dtbg1.jpg) no-repeat left bottom;">动画播放</dt>
+							<dd>
+								<h2>Premiere魔术——图片变电影</h2>
+								<p>教你使用剪辑软件Premiere，将图片制作成一部动态小电影，乐趣满满</p>
+								<span>2130人浏览</span>
+							</dd>
+						</dl>
+					</li>
+					<li style="margin-right: 0px;">
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont1_banner_dtbg2.jpg) no-repeat left center;">JAVA</dt>
+							<dd>
+								<h2>使用StrustS+Hibernate开发学生信息管理功能</h2>
+								<p>StrustS+Hibernate整合开发案例，java web开发技能更全面更深入的了解</p>
+								<span>5245人浏览</span>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+			<div class="index_cont2">
+				<h2>长光精英名师推荐</h2>
+				<div class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted index_height">
+				    <div class="mui-scroll">
+				        <a class="mui-control-item">
+				        	<div>
+				        		<img src="../../resources/imgs/mobile/index_cont2_dt1.jpg">
+				        	</div>
+				            <p class="index_cont2_name">DocMike</p>
+				            <p class="index_cont2_job">移动开发工程师</p>
+				        </a>
+				        <a class="mui-control-item">
+				            <div>
+				        		<img src="../../resources/imgs/mobile/index_cont2_dt2.jpg">
+				        	</div>
+				            <p class="index_cont2_name">DocMike</p>
+				            <p class="index_cont2_job">移动开发工程师</p>
+				        </a>
+				        <a class="mui-control-item">
+				            <div>
+				        		<img src="../../resources/imgs/mobile/index_cont2_dt3.jpg">
+				        	</div>
+				            <p class="index_cont2_name">王大圣</p>
+				            <p class="index_cont2_job">WEB前段工程师</p>
+				        </a>
+				        <a class="mui-control-item">
+				            <div>
+				        		<img src="../../resources/imgs/mobile/index_cont2_dt2.jpg">
+				        	</div>
+				            <p class="index_cont2_name">涵洋洋</p>
+				            <p class="index_cont2_job">移动开发工程师</p>
+				        </a>
+				        <a class="mui-control-item">
+				            <div>
+				        		<img src="../../resources/imgs/mobile/index_cont2_dt3.jpg">
+				        	</div>
+				            <p class="index_cont2_name">7七月</p>
+				            <p class="index_cont2_job">神秘讲师</p>
+				        </a>
+				        <a class="mui-control-item">
+				           <div>
+				        		<img src="../../resources/imgs/mobile/index_cont2_dt1.jpg">
+				        	</div>
+				            <p class="index_cont2_name">Geely</p>
+				            <p class="index_cont2_job">JJAVA开发工程师</p>
+				        </a>
+				        <a class="mui-control-item">
+				        	<div>
+				        		<img src="../../resources/imgs/mobile/index_cont2_dt1.jpg">
+				        	</div>
+				            <p class="index_cont2_name">DocMike</p>
+				            <p class="index_cont2_job">移动开发工程师</p>
+				        </a>
+				        <a class="mui-control-item">
+				            <div>
+				        		<img src="../../resources/imgs/mobile/index_cont2_dt2.jpg">
+				        	</div>
+				            <p class="index_cont2_name">DocMike</p>
+				            <p class="index_cont2_job">移动开发工程师</p>
+				        </a>
+				        <a class="mui-control-item">
+				            <div>
+				        		<img src="../../resources/imgs/mobile/index_cont2_dt3.jpg">
+				        	</div>
+				            <p class="index_cont2_name">王大圣</p>
+				            <p class="index_cont2_job">WEB前段工程师</p>
+				        </a>
+				        <a class="mui-control-item">
+				            <div>
+				        		<img src="../../resources/imgs/mobile/index_cont2_dt2.jpg">
+				        	</div>
+				            <p class="index_cont2_name">涵洋洋</p>
+				            <p class="index_cont2_job">移动开发工程师</p>
+				        </a>
+				        <a class="mui-control-item">
+				            <div>
+				        		<img src="../../resources/imgs/mobile/index_cont2_dt3.jpg">
+				        	</div>
+				            <p class="index_cont2_name">7七月</p>
+				            <p class="index_cont2_job">神秘讲师</p>
+				        </a>
+				        <a class="mui-control-item">
+				           <div>
+				        		<img src="../../resources/imgs/mobile/index_cont2_dt1.jpg">
+				        	</div>
+				            <p class="index_cont2_name">Geely</p>
+				            <p class="index_cont2_job">JJAVA开发工程师</p>
+				        </a>
+				    </div>
+				</div>
+			</div>
+			
+			<!--自动广告轮播图-->
+			<div class="container-fluid">
+		        <div class="row">
+		            <div class="mui-col-sm-12">
+		                <div id="container">
+		                    <div id="list">
+		                    	<a href="#"><img src="../../resources/imgs/mobile/index_ban3.jpg"></a>
+		                        <a href="#"><img src="../../resources/imgs/mobile/index_ban1.jpg"></a>
+		                        <a href="#"><img src="../../resources/imgs/mobile/index_ban2.jpg"></a>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+    		</div>
+			<div class="index_cont3">
+				<div style="width: 100%; padding-top: 20px; height:50px;">
+					<h1 style=" width: 90px; margin: 0 auto;">
+						<img src="../../resources/imgs/mobile/index_cont3_tit.png" style="width: 12px;float: left; margin-right:3px;" />
+						<p style="float: left; font-size: 12px; font-weight: normal;">学员实训</p>
+					</h1>
+				</div>
+			    <div class="mui-row">
+			        <div class="mui-col-xs-6 mui-col-sm-6">
+			        	<dl>
+			        		<dt>
+			        			<img src="../../resources/imgs/mobile/index_cont3_dt1.jpg">
+			        		</dt>
+			        		<dd>
+			        			<p class="index_cont3_name">姓名：高赫明</p>
+			        			<p class="index_cont3_job">专业：电子商务WEB前端</p>
+			        			<p class="index_cont3_company">公司：百度公司南京分部</p>
+			        		</dd>
+			        	</dl>
+			        </div>
+			        <div class="mui-col-xs-6 mui-col-sm-6">
+			          	<dl>
+			        		<dt><img src="../../resources/imgs/mobile/index_cont3_dt2.jpg"></dt>
+			        		<dd>
+			        			
+			        			<p class="index_cont3_name">姓名：杨蕾</p>
+			        			<p class="index_cont3_job">专业：JAVA程序开发</p>
+			        			<p class="index_cont3_company">公司：去哪网杭州分部</p>
+			        		</dd>
+			        	</dl>
+			        </div>
+			    </div>
+				<div class="mui-row">
+			        <div class="mui-col-xs-6 mui-col-sm-6">
+			        	<dl>
+			        		<dt><img src="../../resources/imgs/mobile/index_cont3_dt3.jpg"></dt>
+			        		<dd>
+			        			
+			        			<p class="index_cont3_name">姓名：韩冰</p>
+			        			<p class="index_cont3_job">专业：Android程序开发</p>
+			        			<p class="index_cont3_company">公司：阿里巴巴北京分部</p>
+			        		</dd>
+			        	</dl>
+			        </div>
+			        <div class="mui-col-xs-6 mui-col-sm-6">
+			          	<dl>
+			        		<dt><img src="../../resources/imgs/mobile/index_cont3_dt4.jpg"></dt>
+			        		<dd>
+			        			
+			        			<p class="index_cont3_name">姓名：杨洋</p>
+			        			<p class="index_cont3_job">专业：大数据分析</p>
+			        			<p class="index_cont3_company">公司：谷歌北京分部</p>
+			        		</dd>
+			        	</dl>
+			        </div>
+			    </div>
+			    
+			</div>
+			<!--广告图片-->
+			<div class="index_cont2_banImg">
+				<a href="#"><img src="../../resources/imgs/mobile/index_ban1.jpg"></a>
+			</div>
+			<div class="index_cont4">
+				<h1 style="margin: 0 auto; width: 90px;">
+					<img src="../../resources/imgs/mobile/index_cont1_tit.png" style="width: 12px;float: left; margin-right:3px;" />
+					<p style="float: left; font-size: 12px; font-weight: normal;">学员就业</p>
+				</h1>
+				<p class="index_cont1_change" id="index_cont1_change2" onclick="index_cont1_change2()">换一换</p>
+				<ul class="index_cont1_banner" id="index_cont4_banner_dis2">
+					<li>
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont4_banner_dtbg1.jpg) no-repeat left top;">阿里巴巴</dt>
+							<dd>
+								<h2>毕业于：长春工业大学人文信息学院</h2>
+								<p>感言：感谢长光工程师学院对我的培养，让我学会了很多，在以后的就业实训中对我帮助很大。</p>
+								<span>学员：高赫明</span>
+							</dd>
+						</dl>
+					</li>
+					<li style="margin-right: 0px;">
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont4_banner_dtbg2.jpg) no-repeat left top;">百度公司</dt>
+							<dd>
+								<h2>毕业于：长春理工大学</h2>
+								<p>感言：感谢长光工程师学院对我的培养，让我学会了很多，在以后的就业实训中对我帮助很大。</p>
+								<span>学员：杨凌</span>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont4_banner_dtbg3.jpg) no-repeat right center;">去哪网</dt>
+							<dd>
+								<h2>毕业于：吉林大学</h2>
+								<p>感言：感谢长光工程师学院对我的培养，让我学会了很多，在以后的就业实训中对我帮助很大。</p>
+								<span>学员：杨嵩</span>
+							</dd>
+						</dl>
+					</li>
+					<li style="margin-right: 0px;">
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont4_banner_dtbg1.jpg) no-repeat right bottom;">知乎网</dt>
+							<dd>
+								<h2>毕业于：产春财经大学</h2>
+								<p>感言：感谢长光工程师学院对我的培养，让我学会了很多，在以后的就业实训中对我帮助很大。</p>
+								<span>学员：李琳</span>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+				<ul class="index_cont1_banner index_cont1_banner_dis" id="index_cont4_banner_dis3">
+					<li>
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont4_banner_dtbg2.jpg) no-repeat left top;">阿里巴巴</dt>
+							<dd>
+								<h2>毕业于：长春工业大学人文信息学院</h2>
+								<p>感言：感谢长光工程师学院对我的培养，让我学会了很多，在以后的就业实训中对我帮助很大。</p>
+								<span>学员：高赫明</span>
+							</dd>
+						</dl>
+					</li>
+					<li style="margin-right: 0px;">
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont4_banner_dtbg1.jpg) no-repeat left top;">百度公司</dt>
+							<dd>
+								<h2>毕业于：长春理工大学</h2>
+								<p>感言：感谢长光工程师学院对我的培养，让我学会了很多，在以后的就业实训中对我帮助很大。</p>
+								<span>学员：杨凌</span>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont4_banner_dtbg1.jpg) no-repeat right center;">去哪网</dt>
+							<dd>
+								<h2>毕业于：吉林大学</h2>
+								<p>感言：感谢长光工程师学院对我的培养，让我学会了很多，在以后的就业实训中对我帮助很大。</p>
+								<span>学员：杨嵩</span>
+							</dd>
+						</dl>
+					</li>
+					<li style="margin-right: 0px;">
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont4_banner_dtbg3.jpg) no-repeat right bottom;">知乎网</dt>
+							<dd>
+								<h2>毕业于：产春财经大学</h2>
+								<p>感言：感谢长光工程师学院对我的培养，让我学会了很多，在以后的就业实训中对我帮助很大。</p>
+								<span>学员：李琳</span>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+				<ul class="index_cont1_banner index_cont1_banner_dis" id="index_cont4_banner_dis4">
+					<li>
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont4_banner_dtbg1.jpg) no-repeat right top;">阿里巴巴</dt>
+							<dd>
+								<h2>毕业于：长春工业大学人文信息学院</h2>
+								<p>感言：感谢长光工程师学院对我的培养，让我学会了很多，在以后的就业实训中对我帮助很大。</p>
+								<span>学员：高赫明</span>
+							</dd>
+						</dl>
+					</li>
+					<li style="margin-right: 0px;">
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont4_banner_dtbg2.jpg) no-repeat left bottom;">百度公司</dt>
+							<dd>
+								<h2>毕业于：长春理工大学</h2>
+								<p>感言：感谢长光工程师学院对我的培养，让我学会了很多，在以后的就业实训中对我帮助很大。</p>
+								<span>学员：杨凌</span>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont4_banner_dtbg3.jpg) no-repeat left center;">去哪网</dt>
+							<dd>
+								<h2>毕业于：吉林大学</h2>
+								<p>感言：感谢长光工程师学院对我的培养，让我学会了很多，在以后的就业实训中对我帮助很大。</p>
+								<span>学员：杨嵩</span>
+							</dd>
+						</dl>
+					</li>
+					<li style="margin-right: 0px;">
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont4_banner_dtbg1.jpg) no-repeat right bottom;">知乎网</dt>
+							<dd>
+								<h2>毕业于：产春财经大学</h2>
+								<p>感言：感谢长光工程师学院对我的培养，让我学会了很多，在以后的就业实训中对我帮助很大。</p>
+								<span>学员：李琳</span>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+			<div class="index_cont5">
+				<div style="width: 100%; padding-top:20px; height:50px;">
+					<h1 style=" width: 73px; margin: 0 auto;">
+						<img src="../../resources/imgs/mobile/index_cont3_tit.png" style="width: 12px;float: left; margin-right:3px; display: block;" />
+						<p style="float: left; font-size: 12px; font-weight: normal;">公司资讯</p>
+					</h1>
+				</div>
+			    <div class="mui-row">
+			        <div class="mui-col-sm-3 mui-col-xs-3">
+			            <li>
+			          		<img src="../../resources/imgs/mobile/index_cont5_dt1.jpg">
+			            </li>
+			        </div>
+			        <div class="mui-col-sm-9 mui-col-xs-9">
+			            <li>
+							<h1>长光光电工程学院成立</h1>
+							<h2>恭喜中东互联网+创业基地——长光光电工程学院成立！希望取得良好成绩！</h2>
+							<div class="index_cont5_num">
+								<span>220人浏览</span>
+								<p class="index_cont5_date">2017/4/18</p>
+							</div>
+
+			            </li>
+			       	 </div>
+			    </div>
+			    <div class="mui-row">
+			        <div class="mui-col-sm-3 mui-col-xs-3">
+			            <li>
+			          		<img src="../../resources/imgs/mobile/index_cont5_dt2.jpg">
+			            </li>
+			        </div>
+			        <div class="mui-col-sm-9 mui-col-xs-9">
+			            <li>
+							<h1>长光工程师二期答辩</h1>
+							<h2>二期学院阶段性答辩，开班一个与集体大变身，学员棒棒的！</h2>
+							<div class="index_cont5_num">
+								<span>130人浏览</span>
+								<p class="index_cont5_date">2017/4/13</p>
+							</div>
+			            </li>
+			       	 </div>
+			    </div>
+			    <div class="mui-row">
+			        <div class="mui-col-sm-3 mui-col-xs-3">
+			            <li>
+			          		<img src="../../resources/imgs/mobile/index_cont5_dt3.jpg">
+			            </li>
+			        </div>
+			        <div class="mui-col-sm-9 mui-col-xs-9">
+			            <li>
+							<h1>长光工程师培训中心成立</h1>
+							<h2>长春四海兴唐科技有限公司和中科院长春光机合资所建设。</h2>
+							<div class="index_cont5_num">
+								<span>521人浏览</span>
+								<p class="index_cont5_date">2017/5/2</p>
+							</div>
+			            </li>
+			       	 </div>
+			    </div>
+			</div>
+			<div class="index_cont6">
+				<h1 style="margin: 0 auto; width: 73px;">
+					<img src="../../resources/imgs/mobile/index_cont6_tit.png" style="width: 12px;float: left; margin-right:3px;" />
+					<p style="float: left; font-size: 12px; font-weight: normal;">猜你喜欢</p>
+				</h1>
+				<ul class="index_cont1_banner" id="index_cont1_banner_dis1">
+					<li>
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont1_banner_dtbg1.jpg) no-repeat left top;">PHP</dt>
+							<dd>
+								<h2>快速入门THinkPHP 5.0基础课程篇目</h2>
+								<p>Think PHP已经发布多时。想了解Think PhP的新特性吗？点开继续了解</p>
+								<span>230人浏览</span>
+							</dd>
+						</dl>
+					</li>
+					<li style="margin-right: 0px;">
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont1_banner_dtbg1.jpg) no-repeat right bottom;">html5</dt>
+							<dd>
+								<h2>html5之元素与标签结构</h2>
+								<p>详细探讨HTML5元素和标签结构知识，并深入拓展了全局样式的学习</p>
+								<span>1000人浏览</span>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont1_banner_dtbg2.jpg) no-repeat left bottom;">动画播放</dt>
+							<dd>
+								<h2>Premiere魔术——图片变电影</h2>
+								<p>教你使用剪辑软件Premiere，将图片制作成一部动态小电影，乐趣满满</p>
+								<span>2130人浏览</span>
+							</dd>
+						</dl>
+					</li>
+					<li style="margin-right: 0px;">
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont1_banner_dtbg3.jpg) no-repeat left center;">JAVA</dt>
+							<dd>
+								<h2>使用StrustS+Hibernate开发学生信息管理功能</h2>
+								<p>StrustS+Hibernate整合开发案例，java web开发技能更全面更深入的了解</p>
+								<span>5245人浏览</span>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+				<ul class="index_cont1_banner index_cont1_banner_dis" id="index_cont1_banner_dis2">
+					<li>
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont1_banner_dtbg2.jpg) no-repeat left top;">PHP</dt>
+							<dd>
+								<h2>快速入门THinkPHP 5.0基础课程篇目</h2>
+								<p>Think PHP已经发布多时。想了解Think PhP的新特性吗？点开继续了解</p>
+								<span>230人浏览</span>
+							</dd>
+						</dl>
+					</li>
+					<li style="margin-right: 0px;">
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont1_banner_dtbg3.jpg) no-repeat right bottom;">html5</dt>
+							<dd>
+								<h2>html5之元素与标签结构</h2>
+								<p>详细探讨HTML5元素和标签结构知识，并深入拓展了全局样式的学习</p>
+								<span>1000人浏览</span>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont1_banner_dtbg1.jpg) no-repeat left bottom;">动画播放</dt>
+							<dd>
+								<h2>Premiere魔术——图片变电影</h2>
+								<p>教你使用剪辑软件Premiere，将图片制作成一部动态小电影，乐趣满满</p>
+								<span>2130人浏览</span>
+							</dd>
+						</dl>
+					</li>
+					<li style="margin-right: 0px;">
+						<dl>
+							<dt style="background: url(../../resources/imgs/mobile/index_cont1_banner_dtbg1.jpg) no-repeat left center;">JAVA</dt>
+							<dd>
+								<h2>使用StrustS+Hibernate开发学生信息管理功能</h2>
+								<p>StrustS+Hibernate整合开发案例，java web开发技能更全面更深入的了解</p>
+								<span>5245人浏览</span>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+				<div style="clear: both; margin-top: 15px; height: 20px;"></div>
+				<span style=" width:72px; font-size: 11px; color: #b7bbbf; margin: 0 auto; display: block;">上拉加载更多</span>
+			</div>
+	</div>
+
+	<script type="text/javascript">
+    $(function(){
+        //定义全局变量
+        var curIndex = 0; //当前index
+        var imgLen = $("#list img").length; //图片总数
+
+        //进行事件绑定
+
+        //1.设置自动的定时器
+        // 定时器自动变换2秒每次
+        var autoChange = setInterval(function(){
+            if(curIndex < imgLen-1){
+                curIndex ++;
+            }else{
+                curIndex = 0;
+            }
+            //调用变换处理函数
+            changeTo(curIndex);
+        },2000);
+
+        //清除定时器时候的重置定时器--封装
+        function autoChangeAgain(){
+            autoChange = setInterval(function(){
+                if(curIndex < imgLen-1){
+                    curIndex ++;
+                }else{
+                    curIndex = 0;
+                }
+                //调用变换处理函数
+                changeTo(curIndex);
+            },3000);
+        }
+        //图片切换的处理函数
+        function changeTo(num){
+            var goLeft = num * 77;
+            $("#list").animate({top: "-" + goLeft + "px"},500);
+        }
+    });
+    $("#Dao").ready(function(){
+        $("#char").fadeIn(1000);
+    })
+
+</script>
+</body>
+</html>
